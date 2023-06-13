@@ -12,7 +12,7 @@ let m = parseInt(prompt("Введіть число M:"));
 
 
 if (isNaN(m)) {
-  console.log("Введено некоректне значення для M");
+  console.log(prompt("Введено некоректне значення для M"));
   
 }
 
