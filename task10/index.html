@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Task10</title>
+   <style>
+      .keys{
+         min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      .key{
+         border: 4px solid black;
+         border-radius: 5px;
+         margin: 1rem;
+         font-size: 1.5rem;
+         padding: 1rem .5rem;
+         transition: all 0.2s;
+         width: 100px;
+         text-align: center;
+         
+      }
+      .playing{
+         transform: scale(1.1);
+         border-color: brown;
+         box-shadow: 0 0 10px brown;
+      }
+      kbd{
+         display: block;
+         font-size: 40px;
+      }
+   </style>
+</head>
+<body>
+   <h1>task10</h1>
+   <div class="keys">
+      <div id="65" class="key">
+          <kbd>A</kbd>
+          
+      </div>
+      <div id="83" class="key">
+          <kbd>S</kbd>
+          
+      </div>
+      <div id="68" class="key">
+          <kbd>D</kbd>
+          
+      </div>
+      <div id="70" class="key">
+          <kbd>F</kbd>
+          
+      </div>
+      <div id="71" class="key">
+          <kbd>G</kbd>
+          
+      </div>
+      <div id="72" class="key">
+          <kbd>H</kbd>
+          
+      </div>
+      <div id="74" class="key">
+          <kbd>J</kbd>
+          
+      </div>
+      <div id="75" class="key">
+          <kbd>K</kbd>
+          
+      </div>
+      <div id="76" class="key">
+          <kbd>L</kbd>
+          
+      </div>
+  </div>
+
+  <audio data-key="65" src="sounds/1.mp3"></audio>
+  <audio data-key="83" src="sounds/2.mp3"></audio>
+  <audio data-key="68" src="sounds/3.mp3"></audio>
+  <audio data-key="70" src="sounds/4.mp3"></audio>
+  <audio data-key="71" src="sounds/5.mp3"></audio>
+  <audio data-key="72" src="sounds/6.mp3"></audio>
+  <audio data-key="74" src="sounds/7.mp3"></audio>
+  <audio data-key="75" src="sounds/8.mp3"></audio>
+  <audio data-key="76" src="sounds/9.mp3"></audio>
+
+   
+   <script src="../task10/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+ 
